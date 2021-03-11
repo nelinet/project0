@@ -1,0 +1,32 @@
+nav {
+	text-align: right;
+	text-color: black;
+}
+
+body {
+	text-align: center;
+}
+
+button {
+	background-color: #4285f4;
+	color: white;
+	padding: 6px 20px;
+	border: 1px solid transparent;
+	font-size: 15px;
+}
+
+.sbutton {
+	
+	border: 1px solid transparent;
+	padding: 5px 14px;
+	font-size: 15px;
+}
+
+.searchbox {
+	position: relative;
+	text-align: center;
+}
+
+footer {
+	text-align: left;
+}
