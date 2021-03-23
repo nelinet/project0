@@ -5,9 +5,15 @@ nav {
 
 body {
 	text-align: center;
+    font-family: "Open Sans";
 }
 
-button {
+a {
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.advsbutton {
 	background-color: #4285f4;
 	color: white;
 	padding: 6px 20px;
@@ -15,18 +21,45 @@ button {
 	font-size: 15px;
 }
 
+.links1 {
+    text-align:left;
+}
+
+.links2 {
+    text-align:right;
+}
+
 .sbutton {
 	
 	border: 1px solid transparent;
 	padding: 5px 14px;
 	font-size: 15px;
+    cursor: pointer;
 }
 
 .searchbox {
-	position: relative;
+	position: center;
 	text-align: center;
+}
+
+.advancedsearch {
+    text-align: left;
 }
 
 footer {
 	text-align: left;
+    background-color: #f2f2f2;
+    color: rgba(0,0,0, 0.54);
+    
 }
+
+h1,h2 {
+    text-align: left;
+}
+
+footer {
+  position: absolute;
+  right: 0;bottom:0;left:0;
+}
+
+
