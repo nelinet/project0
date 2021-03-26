@@ -14,12 +14,26 @@
         <h2>Find pages with... </h2>
         <div class="advancedsearch">
             <form action="https://google.com/search">
-                All these words:<input type="text" name="as_q"><br><br>
-                Exact word/phrase:<input type="text" name="as_epq"><br><br>
-                Any of these words:<input type="text" name="as_oq"><br><br>
-                None of these words:<input type="text" name="as_eq"><br><br>
-                <input type="submit" value="Advanced Search" class="advsbutton">
-            </form>
+                <table style="width:60%">
+                    <tr>
+                        <td>All these words:</td>
+                        <td><input type="text" name="as_q" class="advinput"></td>
+                        <td>Type the important words</td>
+                    <tr>
+                        <td>Exact word/phrase:</td>
+                        <td><input type="text" name="as_epq" class="advinput"></td>
+                        <td>Put exact words in quotes</td>
+                    <tr>
+                        <td>Any of these words:</td>
+                        <td><input type="text" name="as_oq" class="advinput"></td>
+                        <td>Type OR between all the words you want:</td>
+                    <tr>
+                        <td>None of these words:</td>
+                        <td><input type="text" name="as_eq" class="advinput"></td>
+                        <td>Put two full stops between the numbers and add a unit of measurement</td>
+                </table>
+                        <input type="submit" value="Advanced Search" class="advsbutton">
+                </form>
         </div>
     </body>
 </html>
