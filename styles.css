@@ -1,11 +1,12 @@
 nav {
 	text-align: right;
 	text-color: black;
+   
 }
 
 body {
 	text-align: center;
-    font-family: "Open Sans";
+    font-family: "Sans Serif";
 }
 
 a {
@@ -30,26 +31,32 @@ a {
 }
 
 .sbutton {
-	
 	border: 1px solid transparent;
 	padding: 5px 14px;
 	font-size: 15px;
     cursor: pointer;
+    background-color: #f5f5f5;
 }
 
 .searchbox {
 	position: center;
 	text-align: center;
+    
 }
 
 .input {
-    border-radius: 15px;
+    border-radius: 25px;
     padding: 20px;
     font-size: 20px;
-    width: 400px;
+    width: 600px;
     height: 50px;
-    border: 1px solid black;
+    border: 1px solid #ccc;
     box-sizing: border-box;
+}
+
+.advinput {
+    width:600px;
+    height: 20px;
 }
 
 .advancedsearch {
@@ -65,20 +72,33 @@ footer {
     
 }
 
-h1,h2 {
+h1 {
+    color: red;
+    font-weight:normal;
     text-align: left;
-    color: grey;
+    font-size:22px;
+    font-family: "Arial";
 }
 
-
+th {
+    font-weight:normal;
+    font-size: 18px;
+}
 .advinput {
-    width: 300px;
-    height: 40px;
-    border: 1px solid black;
+    width: 500px;
+    height: 20px;
+    border: 1px solid #ccc;
     box-sizing: border-box;
-    padding: 5px;
-    padding: 20px;
-    font-size: 20px;
+    padding: 15px;
+    font-size: 15px;
 }
 
+table {
+    font-size: 13px;
+    font-family: "Arial";
+}
 
+.advsbutton {
+    position: relative;
+    right: -490px;
+}
