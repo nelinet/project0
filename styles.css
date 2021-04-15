@@ -12,6 +12,7 @@ body {
 a {
     text-decoration: none;
     cursor: pointer;
+    font-family: "Sans Serif";
 }
 
 .advsbutton {
@@ -39,20 +40,23 @@ a {
 }
 
 .searchbox {
-	position: center;
+	position: relative;
 	text-align: center;
+    padding: 10px;
     
 }
 
 .input {
     border-radius: 25px;
-    padding: 20px;
+    padding-left: 40px;
     font-size: 20px;
     width: 600px;
     height: 50px;
     border: 1px solid #ccc;
     box-sizing: border-box;
 }
+
+
 
 .advinput {
     width:600px;
@@ -93,12 +97,24 @@ th {
     font-size: 15px;
 }
 
-table {
+.advsearchtable {
     font-size: 13px;
     font-family: "Arial";
+    width: 100%;
 }
 
 .advsbutton {
     position: relative;
     right: -490px;
+}
+
+i {
+    position: absolute;
+    top: 22px;
+    padding: 4px 11px;
+}
+
+.advnav {
+    background-color: #f2f2f2;
+    width: 100%;
 }
