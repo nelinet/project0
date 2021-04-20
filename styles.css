@@ -114,7 +114,7 @@ i {
     padding: 4px 11px;
 }
 
-.advnav {
-    background-color: #f2f2f2;
-    width: 100%;
+.navimg {
+    max-width: 10%;
+    display: block;
 }
